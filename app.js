@@ -1,11 +1,42 @@
 var Uscore = 0;
 
-var highscore =10;
+var highscore = 10;
 
 var press = function() {
 	Uscore++;
 	document.getElementById('score').innerHTML = "Your score: " + Uscore;
 
+	if (Uscore>1000){
+		document.getElementById('next_pet').innerHTML = "<img src='whaleshark.jpg'>";
+	}
+	else if (Uscore>750){
+		document.getElementById('next_pet').innerHTML = "<img src='whale.jpg'>";
+	}
+	else if (Uscore>600){
+		document.getElementById('next_pet').innerHTML = "<img src='shark.jpg'>";
+	}
+	else if (Uscore>400){
+		document.getElementById('next_pet').innerHTML = "<img src='Tiger.jpg'>";
+	}
+	else if (Uscore>250){
+		document.getElementById('next_pet').innerHTML = "<img src='Lepopard.jpg'>";
+	}
+	else if (Uscore>175){
+		document.getElementById('next_pet').innerHTML = "<img src='dog.jpg'>";
+	}
+	else if (Uscore>100){
+		document.getElementById('next_pet').innerHTML = "<img src='cat.jpg'>";
+	}
+	else if (Uscore>50){
+		document.getElementById('next_pet').innerHTML = "<img src='parrot.jpg'>";
+	}
+	else if (Uscore>20){
+		document.getElementById('next_pet').innerHTML = "<img src='crab.jpg'>";
+	}
+	else if (Uscore>0){
+		document.getElementById('next_pet').innerHTML = "<img src='mouse.png'>";
+	}
+/*
 	if (Uscore === 20) {
 		alert("Your pet is now a crab!");
 		timerbutton();
@@ -17,9 +48,13 @@ var press = function() {
 		document.getElementById('hiscore').innerHTML = "New Highscore: " + Uscore;
 		return;
 	}
+*/
+
 };
 
+/*
 var timerbutton = function() {
 	document.getElementById('bonus').innerHTML =
 		'<input onclick="bonuspress()" type="image"'
 }
+*/
