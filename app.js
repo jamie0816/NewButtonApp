@@ -7,34 +7,42 @@ var press = function() {
 	document.getElementById('score').innerHTML = "Your score: " + Uscore;
 
 	if (Uscore>1000){
-		document.getElementById('next_pet').innerHTML = "<img src='whaleshark.jpg'>";
+		document.getElementById('next_pet').innerHTML = "<img id='whaleshark' src='whaleshark.jpg'>";
+		Uscore = Uscore+1000;
 	}
 	else if (Uscore>750){
-		document.getElementById('next_pet').innerHTML = "<img src='whale.jpg'>";
+		document.getElementById('next_pet').innerHTML = "<img id='whale' src='whale.jpg'>";
+		Uscore = Uscore+5;
 	}
 	else if (Uscore>600){
-		document.getElementById('next_pet').innerHTML = "<img src='shark.jpg'>";
+		document.getElementById('next_pet').innerHTML = "<img id='shark' src='shark.jpg'>";
+		Uscore = Uscore+4;
 	}
 	else if (Uscore>400){
-		document.getElementById('next_pet').innerHTML = "<img src='Tiger.jpg'>";
+		document.getElementById('next_pet').innerHTML = "<img id='Tiger' src='Tiger.jpg'>";
+		Uscore = Uscore+4;
 	}
 	else if (Uscore>250){
-		document.getElementById('next_pet').innerHTML = "<img src='Lepopard.jpg'>";
+		document.getElementById('next_pet').innerHTML = "<img id='Lepoard' src='Leopard.jpg'>";
+		Uscore = Uscore+3;
 	}
 	else if (Uscore>175){
-		document.getElementById('next_pet').innerHTML = "<img src='dog.jpg'>";
+		document.getElementById('next_pet').innerHTML = "<img id='dog' src='dog.jpg'>";
+		Uscore = Uscore+3;
 	}
 	else if (Uscore>100){
-		document.getElementById('next_pet').innerHTML = "<img src='cat.jpg'>";
+		document.getElementById('next_pet').innerHTML = "<img id='cat' src='cat.jpg'>";
+		Uscore = Uscore+2;
 	}
 	else if (Uscore>50){
-		document.getElementById('next_pet').innerHTML = "<img src='parrot.jpg'>";
+		document.getElementById('next_pet').innerHTML = "<img id='parrots' src='Parrots.jpg'>";
+		Uscore = Uscore+2;
 	}
 	else if (Uscore>20){
-		document.getElementById('next_pet').innerHTML = "<img src='crab.jpg'>";
+		document.getElementById('next_pet').innerHTML = "<img id='crab' src='crab.jpg'>";
 	}
 	else if (Uscore>0){
-		document.getElementById('next_pet').innerHTML = "<img src='mouse.png'>";
+		document.getElementById('next_pet').innerHTML = "<img id='mouse' src='mouse.png'>";
 	}
 /*
 	if (Uscore === 20) {

@@ -2,3 +2,45 @@
 	height:200px;
 	width:200px;
 }
+body {
+	text-align: center;
+	background-color: aqua;
+	font-size: 30px;
+	font-family: 'Trebuchet MS';
+}
+#mouse{
+	height:25%;
+	width:25%;
+}
+#crab{
+	height:25%;
+	width:25%;
+}
+#parrots{
+	height:250px;
+	height:200px;
+}
+#cat{
+	height:25%;
+	width:25%;
+}
+#dog{
+	height:25%;
+	width:25%;
+}
+#Lepoard{
+	height:25%;
+	width:25%;
+}
+#Tiger{
+	height:25%;
+	width:25%;
+}
+#shark{
+	height:25%;
+	width:25%;
+}
+#whaleshark{
+	height:25%;
+	width:25%;
+}
